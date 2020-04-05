@@ -1,0 +1,40 @@
+<html>
+  <form method="post" action="miservidor.php">
+    <div>
+      <label for="codpost">Codigo postal: </label>
+      <input id="codpost" type:"number">
+    </div>
+    <div>
+      <label for="nivprod">Nivel de satisfaccion del producto: </label>
+      <selct id="nivprod">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+    </div>
+    <div>
+      <label for="email">E-mail: </label>
+      <input id="email" type="text">
+    </div>
+    <div>
+      <label for="puntposi">Puntos positivos del producto: </label>
+      <textarea id="puntposi"></textarea>
+    </div>
+    <div>
+      <label for="puntnega">Puntos negativos del producto: </label>
+      <textarea id="puntnega"></textarea>
+    </div>
+    <div>
+      <label for="sat prod">Satifaccion del producto: </label>
+      <select id="sat prod">
+        <option value="EX">Excelente</option>
+        <option value="BU">Bueno</option>
+        <option value="RE">Regular</option>
+        <option value="PE">Pesimo</option>
+      </select>
+    </div>
+    <input type="submit" value="enviar>
+  </form>
+</html>
