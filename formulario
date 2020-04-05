@@ -6,7 +6,7 @@
     </div>
     <div>
       <label for="nivprod">Nivel de satisfaccion del producto: </label>
-      <selct id="nivprod">
+      <select id="nivprod">
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
